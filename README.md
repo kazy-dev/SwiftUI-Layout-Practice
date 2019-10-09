@@ -1,5 +1,9 @@
 # SwiftUI-Layout-Practice
 
+<div align="center">
+  <img width="800" alt="screenshot_1" src="https://github.com/kazy-dev/SwiftUI-Layout-Practice/blob/master/SwiftUI-Layout-Practice/Screenshots/swiftui-layout.png">
+</div>
+
 This project is for learning SwiftUI.
 We are mainly committing layout samples.
 
