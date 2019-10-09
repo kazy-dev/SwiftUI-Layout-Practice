@@ -20,9 +20,9 @@
 		5AC52476234E0ECE00D52370 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC52475234E0ECE00D52370 /* CardView.swift */; };
 		5AC52479234E0F1200D52370 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC52478234E0F1200D52370 /* Global.swift */; };
 		5AC5247B234E0FA800D52370 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC5247A234E0FA800D52370 /* TopViewModel.swift */; };
-		5AC5247D234E105800D52370 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC5247C234E105800D52370 /* Default-568h@2x.png */; };
 		5AC52480234E11E100D52370 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5AC5247F234E11E100D52370 /* README.md */; };
 		5AC52483234E12D500D52370 /* topview_screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC52482234E12D500D52370 /* topview_screenshot_1.png */; };
+		5AE4F5E8234E1D81003A4F55 /* swiftui-layout.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F5E7234E1D81003A4F55 /* swiftui-layout.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,9 +62,9 @@
 		5AC52475234E0ECE00D52370 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5AC52478234E0F1200D52370 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		5AC5247A234E0FA800D52370 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
-		5AC5247C234E105800D52370 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5AC5247F234E11E100D52370 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5AC52482234E12D500D52370 /* topview_screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topview_screenshot_1.png; sourceTree = "<group>"; };
+		5AE4F5E7234E1D81003A4F55 /* swiftui-layout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swiftui-layout.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				5AC52481234E129F00D52370 /* Screenshots */,
-				5AC5247C234E105800D52370 /* Default-568h@2x.png */,
 				5AC52436234E0D3B00D52370 /* SwiftUI-Layout-Practice */,
 				5AC5244D234E0D3D00D52370 /* SwiftUI-Layout-PracticeTests */,
 				5AC52458234E0D3D00D52370 /* SwiftUI-Layout-PracticeUITests */,
@@ -244,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				5AC52482234E12D500D52370 /* topview_screenshot_1.png */,
+				5AE4F5E7234E1D81003A4F55 /* swiftui-layout.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -353,8 +353,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC52483234E12D500D52370 /* topview_screenshot_1.png in Resources */,
+				5AE4F5E8234E1D81003A4F55 /* swiftui-layout.png in Resources */,
 				5AC52444234E0D3D00D52370 /* LaunchScreen.storyboard in Resources */,
-				5AC5247D234E105800D52370 /* Default-568h@2x.png in Resources */,
 				5AC52480234E11E100D52370 /* README.md in Resources */,
 				5AC52441234E0D3D00D52370 /* Preview Assets.xcassets in Resources */,
 				5AC5243E234E0D3D00D52370 /* Assets.xcassets in Resources */,
