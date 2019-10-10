@@ -12,3 +12,5 @@ class ScreenSize {
     static let width = UIScreen.main.bounds.width
     static let height = UIScreen.main.bounds.height
 }
+
+let statusBarHeight = UIApplication.shared.statusBarFrame.height

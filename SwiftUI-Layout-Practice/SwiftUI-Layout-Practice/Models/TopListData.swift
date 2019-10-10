@@ -11,12 +11,12 @@ import SwiftUI
 struct TopListData: Identifiable {
     
     enum Presentation: View, Hashable, Identifiable {
-        case cardListView
-        case view
+        case cardList
+        case sideMenu
         var body: some View {
             switch self {
-            case .cardListView: return AnyView(CardListView())
-            case .view: return AnyView(EmptyView())
+            case .cardList: return AnyView(CardListView())
+            case .sideMenu: return AnyView(SideMenuView())
             }
         }
     }
