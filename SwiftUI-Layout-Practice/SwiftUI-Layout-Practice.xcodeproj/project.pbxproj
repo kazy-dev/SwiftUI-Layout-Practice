@@ -31,6 +31,7 @@
 		5AE4F5FB234ED7BE003A4F55 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F5FA234ED7BE003A4F55 /* MenuView.swift */; };
 		5AE4F5FD234EDFD1003A4F55 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F5FC234EDFD1003A4F55 /* MenuRow.swift */; };
 		5AE4F5FF234EDFF7003A4F55 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F5FE234EDFF7003A4F55 /* Menu.swift */; };
+		5AE4F601234EF2E7003A4F55 /* side_menu_sample_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		5AE4F5FA234ED7BE003A4F55 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		5AE4F5FC234EDFD1003A4F55 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		5AE4F5FE234EDFF7003A4F55 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = side_menu_sample_gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +265,7 @@
 		5AC52481234E129F00D52370 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */,
 				5AC52482234E12D500D52370 /* topview_screenshot_1.png */,
 				5AE4F5E9234E86FE003A4F55 /* swiftui_layout.png */,
 			);
@@ -403,6 +406,7 @@
 				5AC52483234E12D500D52370 /* topview_screenshot_1.png in Resources */,
 				5AC52444234E0D3D00D52370 /* LaunchScreen.storyboard in Resources */,
 				5AC52480234E11E100D52370 /* README.md in Resources */,
+				5AE4F601234EF2E7003A4F55 /* side_menu_sample_gif.gif in Resources */,
 				5AC52441234E0D3D00D52370 /* Preview Assets.xcassets in Resources */,
 				5AE4F5EA234E86FE003A4F55 /* swiftui_layout.png in Resources */,
 				5AC5243E234E0D3D00D52370 /* Assets.xcassets in Resources */,
