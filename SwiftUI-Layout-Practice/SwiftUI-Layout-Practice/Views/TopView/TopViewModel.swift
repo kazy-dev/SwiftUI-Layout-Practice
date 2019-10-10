@@ -5,12 +5,8 @@
 //  Copyright © 2019 kazy. All rights reserved.
 //
 
-import SwiftUI
+import Foundation
 
-final class TopViewModel: ObservableObject {
-    @Published var cardList: [Card]
-    
-    init(cardList: [Card]) {
-        self.cardList = cardList
-    }
+class TopViewModel: ObservableObject {
+    @Published var list: [TopListData] = [TopListData(title: "CardList", presentType: .cardListView)]
 }
