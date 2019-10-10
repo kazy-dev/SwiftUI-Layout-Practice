@@ -21,4 +21,6 @@ This layout is simply Card List Layout.
 
 ## Layout_2
 
-Currently making ...  
+<div align="center">
+  <img width="300" alt="screenshot_1" src="https://github.com/kazy-dev/SwiftUI-Layout-Practice/blob/master/SwiftUI-Layout-Practice/Screenshots/side_menu_sample_gif.gif">
+</div>
