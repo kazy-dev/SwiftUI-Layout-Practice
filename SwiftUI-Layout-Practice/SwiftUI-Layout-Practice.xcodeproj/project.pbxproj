@@ -221,8 +221,8 @@
 			isa = PBXGroup;
 			children = (
 				5AC5246D234E0E1C00D52370 /* Card.swift */,
-				5AE4F5F3234ED19D003A4F55 /* TopListData.swift */,
 				5AE4F5FE234EDFF7003A4F55 /* Menu.swift */,
+				5AE4F5F3234ED19D003A4F55 /* TopListData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -289,9 +289,9 @@
 		5AE4F5F5234ED753003A4F55 /* SideMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				5AE4F5F8234ED77B003A4F55 /* SideMenuView.swift */,
-				5AE4F5FA234ED7BE003A4F55 /* MenuView.swift */,
 				5AE4F5FC234EDFD1003A4F55 /* MenuRow.swift */,
+				5AE4F5FA234ED7BE003A4F55 /* MenuView.swift */,
+				5AE4F5F8234ED77B003A4F55 /* SideMenuView.swift */,
 			);
 			path = SideMenuView;
 			sourceTree = "<group>";
