@@ -17,9 +17,7 @@ struct MenuRow: View {
             HStack {
                 Image(systemName: image)
                     .imageScale(.large)
-                    //                .foregroundColor(Color("icons"))
                     .frame(width: 32, height: 32)
-//                Spacer()
                 Text(text)
                     .font(.headline)
                 Spacer()
