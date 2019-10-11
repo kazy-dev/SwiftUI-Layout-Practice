@@ -33,6 +33,7 @@
 		5AE4F601234EF2E7003A4F55 /* side_menu_sample_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */; };
 		5AE4F606234F0D25003A4F55 /* CardAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F605234F0D25003A4F55 /* CardAnimationView.swift */; };
 		5AE4F62823502104003A4F55 /* swiftui_layout.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F62723502104003A4F55 /* swiftui_layout.png */; };
+		5AE4F62A235027AB003A4F55 /* card_animation_sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F629235027AB003A4F55 /* card_animation_sample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = side_menu_sample_gif.gif; sourceTree = "<group>"; };
 		5AE4F605234F0D25003A4F55 /* CardAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnimationView.swift; sourceTree = "<group>"; };
 		5AE4F62723502104003A4F55 /* swiftui_layout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftui_layout.png; sourceTree = "<group>"; };
+		5AE4F629235027AB003A4F55 /* card_animation_sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = card_animation_sample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,9 +208,9 @@
 			isa = PBXGroup;
 			children = (
 				5AE4F602234F0CE8003A4F55 /* CardAnimationView */,
+				5AC5246B234E0DF400D52370 /* CardListView */,
 				5AE4F5F5234ED753003A4F55 /* SideMenuView */,
 				5AE4F5EB234E8801003A4F55 /* TopView */,
-				5AC5246B234E0DF400D52370 /* CardListView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +270,7 @@
 		5AC52481234E129F00D52370 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				5AE4F629235027AB003A4F55 /* card_animation_sample.gif */,
 				5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */,
 				5AC52482234E12D500D52370 /* topview_screenshot_1.png */,
 				5AE4F62723502104003A4F55 /* swiftui_layout.png */,
@@ -421,6 +424,7 @@
 				5AE4F601234EF2E7003A4F55 /* side_menu_sample_gif.gif in Resources */,
 				5AC52441234E0D3D00D52370 /* Preview Assets.xcassets in Resources */,
 				5AC5243E234E0D3D00D52370 /* Assets.xcassets in Resources */,
+				5AE4F62A235027AB003A4F55 /* card_animation_sample.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
