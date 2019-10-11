@@ -12,11 +12,15 @@ struct SideMenuView: View {
     
     var body: some View {
         ZStack {
-            Group {
+            VStack {
                 Button(action: {
                     self.show = true
                 }) {
                     Text("show side menu")
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(30)
+                        .foregroundColor(.white)
                 }
             }
             .blur(radius: show ? 20 : 0)
