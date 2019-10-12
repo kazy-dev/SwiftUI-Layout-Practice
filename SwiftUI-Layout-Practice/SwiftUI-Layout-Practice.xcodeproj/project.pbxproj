@@ -34,6 +34,9 @@
 		5AE4F606234F0D25003A4F55 /* CardAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F605234F0D25003A4F55 /* CardAnimationView.swift */; };
 		5AE4F62823502104003A4F55 /* swiftui_layout.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F62723502104003A4F55 /* swiftui_layout.png */; };
 		5AE4F62A235027AB003A4F55 /* card_animation_sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F629235027AB003A4F55 /* card_animation_sample.gif */; };
+		5AE4F67223507675003A4F55 /* UserDefaultTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F67123507675003A4F55 /* UserDefaultTestView.swift */; };
+		5AE4F675235076DB003A4F55 /* UserDefaultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4F674235076DB003A4F55 /* UserDefaultWrapper.swift */; };
+		5AE4F6772352004A003A4F55 /* userdefault_test_sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4F6762352004A003A4F55 /* userdefault_test_sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		5AE4F605234F0D25003A4F55 /* CardAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnimationView.swift; sourceTree = "<group>"; };
 		5AE4F62723502104003A4F55 /* swiftui_layout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swiftui_layout.png; sourceTree = "<group>"; };
 		5AE4F629235027AB003A4F55 /* card_animation_sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = card_animation_sample.gif; sourceTree = "<group>"; };
+		5AE4F67123507675003A4F55 /* UserDefaultTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultTestView.swift; sourceTree = "<group>"; };
+		5AE4F674235076DB003A4F55 /* UserDefaultWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultWrapper.swift; sourceTree = "<group>"; };
+		5AE4F6762352004A003A4F55 /* userdefault_test_sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userdefault_test_sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,8 +188,8 @@
 		5AC52467234E0DA300D52370 /* SupportingFile */ = {
 			isa = PBXGroup;
 			children = (
-				5AC52445234E0D3D00D52370 /* Info.plist */,
 				5AC5243D234E0D3D00D52370 /* Assets.xcassets */,
+				5AC52445234E0D3D00D52370 /* Info.plist */,
 			);
 			path = SupportingFile;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 		5AC5246A234E0DD900D52370 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5AE4F67023507408003A4F55 /* UserDefaultTestView */,
 				5AE4F602234F0CE8003A4F55 /* CardAnimationView */,
 				5AC5246B234E0DF400D52370 /* CardListView */,
 				5AE4F5F5234ED753003A4F55 /* SideMenuView */,
@@ -262,6 +269,7 @@
 		5AC52477234E0EF400D52370 /* Utills */ = {
 			isa = PBXGroup;
 			children = (
+				5AE4F673235076BF003A4F55 /* PropertyWrappers */,
 				5AC52478234E0F1200D52370 /* Global.swift */,
 			);
 			path = Utills;
@@ -272,8 +280,9 @@
 			children = (
 				5AE4F629235027AB003A4F55 /* card_animation_sample.gif */,
 				5AE4F600234EF2E7003A4F55 /* side_menu_sample_gif.gif */,
-				5AC52482234E12D500D52370 /* topview_screenshot_1.png */,
 				5AE4F62723502104003A4F55 /* swiftui_layout.png */,
+				5AC52482234E12D500D52370 /* topview_screenshot_1.png */,
+				5AE4F6762352004A003A4F55 /* userdefault_test_sample.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -311,6 +320,22 @@
 				5AE4F605234F0D25003A4F55 /* CardAnimationView.swift */,
 			);
 			path = CardAnimationView;
+			sourceTree = "<group>";
+		};
+		5AE4F67023507408003A4F55 /* UserDefaultTestView */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4F67123507675003A4F55 /* UserDefaultTestView.swift */,
+			);
+			path = UserDefaultTestView;
+			sourceTree = "<group>";
+		};
+		5AE4F673235076BF003A4F55 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				5AE4F674235076DB003A4F55 /* UserDefaultWrapper.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC52483234E12D500D52370 /* topview_screenshot_1.png in Resources */,
+				5AE4F6772352004A003A4F55 /* userdefault_test_sample.png in Resources */,
 				5AC52444234E0D3D00D52370 /* LaunchScreen.storyboard in Resources */,
 				5AC52480234E11E100D52370 /* README.md in Resources */,
 				5AE4F62823502104003A4F55 /* swiftui_layout.png in Resources */,
@@ -450,12 +476,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC52438234E0D3B00D52370 /* AppDelegate.swift in Sources */,
+				5AE4F67223507675003A4F55 /* UserDefaultTestView.swift in Sources */,
 				5AC5243A234E0D3B00D52370 /* SceneDelegate.swift in Sources */,
 				5AE4F5EF234E89A1003A4F55 /* TopViewModel.swift in Sources */,
 				5AE4F5F9234ED77B003A4F55 /* SideMenuView.swift in Sources */,
 				5AC5243C234E0D3B00D52370 /* CardListView.swift in Sources */,
 				5AC52472234E0E7300D52370 /* ShrinkButtonStyle.swift in Sources */,
 				5AE4F5F4234ED19D003A4F55 /* TopListData.swift in Sources */,
+				5AE4F675235076DB003A4F55 /* UserDefaultWrapper.swift in Sources */,
 				5AE4F5FB234ED7BE003A4F55 /* MenuView.swift in Sources */,
 				5AC5247B234E0FA800D52370 /* CardListViewModel.swift in Sources */,
 				5AC52476234E0ECE00D52370 /* CardView.swift in Sources */,

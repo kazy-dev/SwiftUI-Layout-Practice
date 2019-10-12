@@ -10,5 +10,6 @@ import Foundation
 class TopViewModel: ObservableObject {
     @Published var list: [TopListData] = [TopListData(title: "CardList", presentType: .cardList),
                                           TopListData(title: "SideMenu", presentType: .sideMenu),
-                                          TopListData(title: "CardAnimation", presentType: .cardAnimation)]
+                                          TopListData(title: "CardAnimation", presentType: .cardAnimation),
+                                          TopListData(title: "UserDefaultTest", presentType: .userDefaultTest)]
 }
